@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class factorial
+ {
+	public static void main(String[] args)
+	 {
+		Scanner in =new  Scanner(System.in);
+		System.out.println("The factorial is : ");
+		int no = in.nextInt();
+		if (no==0)
+				System.out.println("the factorial of 0 is 1");
+		int i ,z=1;
+		int r=1;
+		for (i=no;i>0;i--)
+		{
+				 r = r*i;
+				 
+				 
+		}
+		
+ 		System.out.println("The result : " +r);
+		
+ 	}
+}
