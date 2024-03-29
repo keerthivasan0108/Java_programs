@@ -1,8 +1,8 @@
-import java.lang.*;
-class first
+// import java.lang.*;
+public class First
 {
-    public static void main(String args[]);
+    public static void main(String args[])
     {
-        system.out.println("welcome");
+        System.out.println("welcome");
     }
 }
